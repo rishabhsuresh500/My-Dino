@@ -1,0 +1,116 @@
+body{
+    background-image: url('../images/bg-03.jpg');   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+input{
+    background-color: white;
+    color:white;
+    padding-left:5px;
+    border-radius: 25px;
+}
+::placeholder {
+    color: grey;
+    opacity: 1; 
+}
+.float-row{
+    background-color: transparent;
+    display: flex;
+    border-radius: 100px;
+    width: 600px;
+    height:390px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 85px;
+    margin-bottom: 126px;
+}
+.form-control{
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+}
+.btn1{
+    height: 30px;
+    width:fit-content;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn1:hover{
+    color: blanchedalmond;
+}
+h1{
+    font-size: 35px;
+    font-family:sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+form .btn1{
+    height: 30px;
+    width:fit-content;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn1:hover{
+    color: white;
+}
+#Loginbtn, #register{
+    color: #fff;
+    background-color: #f6c33b;
+    height: 60px;
+    width: 23%;    
+    border-radius: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing:0.1em;
+}
+#forgotPassword{
+    background-color: rgb(181, 124, 255);
+}
+h4{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+#signEmail, #signPassword
+{
+    min-height: 30px;
+    width: 20%;
+    padding: 10px 25px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #29293a;
+    background-color: #f2f3f9;
+    background-image: none;
+    border: 0px solid #f2f3f9;
+    border-radius: 35px;
+    margin-left: 0%;
+    font: inherit;
+}
+.copy_right_footer {
+    position: relative;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color:transparent;
+    line-height: 3;
+    text-align: center;
+    margin-top: 40px;
+ }
+

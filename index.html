@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://kit.fontawesome.com/a4dc2c536f.js" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body id="bckgrnd">
+    
+    <script>
+        const firebaseConfig = {
+          apiKey: "AIzaSyAoiW7vGBX1ZejXUfHtRaHBU8rG4_5iCfU",
+          authDomain: "data-mgmt-e19d5.firebaseapp.com",
+          databaseURL: "https://data-mgmt-e19d5-default-rtdb.firebaseio.com",
+          projectId: "data-mgmt-e19d5",
+          storageBucket: "data-mgmt-e19d5.appspot.com",
+          messagingSenderId: "926884353388",
+          appId: "1:926884353388:web:88c14dea85c049ceb74f49"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+
+    <section class="Form section fullwidth-page">
+       
+            <div class="rd-navbar-brand"><a class="brand-name" href="home.html"><img class="logo-inverse" src="images/My_Dino_logo-removebg-preview.png" alt="" width="100" height="125"/></a></div>
+        
+        <center>
+            <form>
+                
+            <div class="float-container">
+               
+                 <h1><b>LOGIN</b></h1>
+                        <br>
+                        
+                            <input type="email" class="form-control" id="signEmail" placeholder="Email ID">
+                            <div class="form-row">
+                               <input type="password" class="form-control" id="signPassword" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button class="btn1" id="Loginbtn">Sign In</button>
+                            </div>
+                            <div class="form-row">
+                                <h4><b>New User?</b></h4>
+                                    <button id="register" type="submit" class="btn1" formaction='register.html'>Sign Up</button>
+                                </div>
+                        </form> 
+        </center>
+    </section>
+     <!-- Page Footer-->
+     <div class="copy_right_footer">
+        © Developed by - Rishabh
+      </div>
+<script src="js/login.js"></script>
+</body>
+</html>
